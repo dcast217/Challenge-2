@@ -242,12 +242,12 @@ footer ul li a:hover {
 
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-  .hero .quote {
+  .idol .quote {
       font-size: 28px;
       padding-right: 20px;
   }
   
-  .hero .quote #quote-text {
+  .idol .quote #quote-text {
       font-size: 35px;
   }
 
@@ -273,7 +273,7 @@ footer ul li a:hover {
       min-height: 80px;
   }
 
-  .hero {
+  .idol {
       flex-direction: column;
   }
 
