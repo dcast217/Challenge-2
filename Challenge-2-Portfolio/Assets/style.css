@@ -81,7 +81,8 @@ header nav ul li a:hover {
 
 .idol img {
   height: 300px;
-}
+    transition: all 500ms ease-in-out;
+  }
 
 
 .idol .quote #quote-text {
@@ -246,6 +247,10 @@ footer ul li a:hover {
       font-size: 28px;
       padding-right: 20px;
   }
+  .idol img{
+    height: 300px; 
+    transition: all 500ms ease-in-out;
+  }
   
   .idol .quote #quote-text {
       font-size: 35px;
@@ -272,9 +277,21 @@ footer ul li a:hover {
   header nav ul {
       min-height: 80px;
   }
+  .idol .quote {
+    font-size: 28px;
+    padding-right: 20px;
+}
+
+.idol .quote #quote-text {
+    font-size: 18px;
+}
 
   .idol {
       flex-direction: column;
+  }
+  .idol img{
+    height: 200px; 
+    transition: all 500ms ease-in-out;
   }
 
   .about-me {
